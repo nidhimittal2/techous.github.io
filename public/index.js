@@ -14,3 +14,15 @@ image[i].addEventListener("mouseout",function(){
 
 });
 }
+
+
+/* var for creator main */
+
+var creator = document.querySelectorAll("#creator-main");
+
+for(var i = 0 ; i<creator.length;i++)
+{
+  creator[i].addEventListener("mouseover",function(){
+    this.style.textShadow = "0.5px 0.2px"
+  });
+}
